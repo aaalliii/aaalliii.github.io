@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --font-roboto: Roboto;
+
+    /* font sizes */
+    --font-size-13xl: 32px;
+
+    /* Colors */
+    --color-antiquewhite: #efe9d1;
+    --color-firebrick: #b60b01;
+    --color-black: #000;
+}
