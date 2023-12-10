@@ -1,17 +1,43 @@
 body {
     margin: 0;
-    line-height: normal;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #efe9d1;
 }
 
-:root {
-    /* fonts */
-    --font-roboto: Roboto;
+header {
+    background-color: #fff; /* Set the background color for the header */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    /* font sizes */
-    --font-size-13xl: 32px;
+nav {
+    display: flex;
+}
 
-    /* Colors */
-    --color-antiquewhite: #efe9d1;
-    --color-firebrick: #b60b01;
-    --color-black: #000;
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000; /* Set the text color for the navigation links */
+}
+
+.logo {
+    width: 100px; /* Adjust the width of your logo */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.buy-tickets-btn {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.main-content {
+    /* Add your main content styling here */
+    padding: 20px;
 }
