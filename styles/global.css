@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #fff; /* Set the background color for the header */
+    background-color: #fff;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -20,24 +20,30 @@ nav {
 nav a {
     margin-right: 20px;
     text-decoration: none;
-    color: #000; /* Set the text color for the navigation links */
+    color: #000;
+}
+nav b {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
 }
 
 .logo {
-    width: 100px; /* Adjust the width of your logo */
-    height: auto; /* Maintain the aspect ratio */
+    width: 100px;
+    height: auto;
 }
 
 .buy-tickets-btn {
-    background-color: red;
+    background-color: #a62517;
     color: #fff;
-    padding: 10px 20px;
+    padding: 18px 36px;
     border: none;
-    border-radius: 20px;
+    border-radius: 36px;
     cursor: pointer;
+    font-size: 120%;
 }
 
 .main-content {
-    /* Add your main content styling here */
+
     padding: 20px;
 }

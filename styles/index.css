@@ -25,6 +25,12 @@
     width: 253px;
     height: 74px;
 }
+.NAVimages{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: end;
+    right: 8.07%;
+}
 .buy-tickets,
 .div {
     position: absolute;
@@ -42,7 +48,7 @@
 }
 .div {
     width: 20%;
-    top: calc(50% + 482px);
+    bottom: 3%;
     left: 8.07%;
     font-size: 22px;
     line-height: 24px;
@@ -57,26 +63,18 @@
     width: 1635px;
     height: 1.31px;
 }
-.iconsocialinstagram {
-    position: absolute;
-    height: 1.17%;
-    width: 0.83%;
-    top: 96.04%;
-    right: 7.29%;
-    bottom: 2.79%;
-    left: 91.88%;
-}
+
 .instagram-svgrepo-com-1-1,
 .logo-tiktok-svgrepo-com-1-1 {
     position: absolute;
-    top: 1264px;
-    left: 1734px;
+    bottom: 5%;
+    right: 8%;
     width: 56px;
     height: 54px;
     overflow: hidden;
 }
 .instagram-svgrepo-com-1-1 {
-    left: 1615px;
+    right: 15%;
     width: 54px;
     height: 56px;
 }
