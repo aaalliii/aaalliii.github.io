@@ -131,8 +131,7 @@ table, th, td {
 
 th, td {
     color: white;
-    /*background-color: rgb(128, 128, 128);*/
-    padding: 10px; /* Increased padding for better spacing */
+    padding: 8px;
     text-align: center;
 }
 td:nth-child(1) {
