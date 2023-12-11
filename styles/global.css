@@ -21,12 +21,13 @@ nav a {
     margin-right: 20px;
     text-decoration: none;
     color: #000;
-    font-size: 90%;
+    font-size: 80%;
 }
 nav b {
     margin-right: 20px;
     text-decoration: none;
     color: #000;
+    align-content: center;
 }
 
 .logo {
@@ -39,11 +40,11 @@ nav b {
 .buy-tickets-btn {
     background-color: #a62517;
     color: #fff;
-    padding: 16px 10px;
+    padding: 15px 20px;
     border: none;
     border-radius: 36px;
     cursor: pointer;
-    font-size: 90%;
+    font-size: 70%;
 }
 
 .main-content {
