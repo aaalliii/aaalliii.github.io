@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:wght@400;500;700&display=swap" />
+    <title>NIS BAĞYT</title>
+</head>
+<body>
+<header style="background: #efe9d1">
+    <a></a>
+    <nav style="background: #efe9d1">
+        <a href="AboutUs.html">About Us</a>
+        <a href="../index.html">Movie</a>
+    </nav>
+    <img class="logo" src="../assets/bagyt-logo-1@2x.png" alt="Cinema Logo">
+    <a href="BuyTickets.html"><button class="buy-tickets-btn" ><b>Buy Tickets</b></button></a>
+    <a></a>
+</header>
+
+<section >
+    <table id="myTable">
+        <thead>
+        <tr>
+            <th>Block 1</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</section>
+<script>
+    function generateRows() {
+        var tableBody = document.getElementById("myTable").getElementsByTagName('tbody')[0];
+
+        for (var i = 11; i >= 1; i--) {
+            var row = tableBody.insertRow();
+            var cell = row.insertCell(0);
+            cell.innerHTML = "Row " + i;
+
+            for (var j = 1; j <= 6; j++) {
+                cell = row.insertCell();
+                cell.innerHTML = "";
+                cell.addEventListener("click", function() {
+                    displayMenu(this);
+                });
+            }
+        }
+    }
+    function displayMenu(cell) {
+        var rowIndex = cell.parentNode.rowIndex;
+        var columnIndex = cell.cellIndex;
+
+        alert("Block 1 \nRow: " + rowIndex + "\nColumn: " + columnIndex + "\nsend 250tg here:\n+77002120406");
+    }
+
+    generateRows();
+</script>
+
+<footer>
+    <div class="div">©2023-2024 <br/> NIS BAĞYT</div>
+    <nav class="NAVimages">
+        <a href="https://www.tiktok.com/@nispmala?_t=8i5DGNKf8cQ&_r=1"><img
+                class="logo-tiktok-svgrepo-com-1-1"
+                alt=""
+                src="../assets/logotiktoksvgrepocom-1-1.svg"
+        /></a>
+
+        <a href="https://instagram.com/nisbagyt?igshid=NzZlODBkYWE4Ng=="><img
+                class="instagram-svgrepo-com-1-1"
+                alt=""
+                src="../assets/instagramsvgrepocom-1-1.svg"
+
+        /></a>
+    </nav>
+
+</footer>
+
+</body>
+</html>

@@ -119,3 +119,26 @@
     color: white;
 
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    background-color: #d4d4d4;
+    border: 1px solid black;
+}
+
+th, td {
+    color: white;
+    /*background-color: rgb(128, 128, 128);*/
+    padding: 10px; /* Increased padding for better spacing */
+    text-align: center;
+}
+td:nth-child(1) {
+    background-color: rgb(128, 128, 128);
+}
+th {
+    color: white;
+    background-color: rgb(128, 128, 128); /* Light gray background for row names */
+}
