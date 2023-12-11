@@ -21,7 +21,7 @@
     top: 61px;
     left: 1362px;
     border-radius: 40px;
-    background-color: var(--color-firebrick);
+    background-color:  #a62517;
     width: 253px;
     height: 74px;
 }
@@ -41,7 +41,7 @@
     left: 1403px;
     font-size: 36px;
     line-height: 38px;
-    color: var(--color-antiquewhite);
+    color: #efe9d1;
     width: 190px;
     height: 38px;
     -webkit-text-stroke: 1px #efe9d1;
@@ -50,18 +50,19 @@
     width: 20%;
     bottom: 3%;
     left: 8.07%;
-    font-size: 22px;
+    /*font-size: 22px;*/
     line-height: 24px;
     font-weight: 500;
     height: 42px;
+    font-size: 50%;
 }
 .frame-item {
     position: absolute;
     top: 1223px;
     left: 155px;
-    background-color: var(--color-firebrick);
+    background-color: #a62517;
     width: 1635px;
-    height: 1.31px;
+    /*height: 1.31px;*/
 }
 
 .instagram-svgrepo-com-1-1,
@@ -69,23 +70,10 @@
     position: absolute;
     bottom: 5%;
     right: 8%;
-    width: 56px;
     height: 54px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .instagram-svgrepo-com-1-1 {
-    right: 15%;
+    right: 25%;
     width: 54px;
-    height: 56px;
-}
-.bagyt-logo-1-parent {
-    position: relative;
-    background-color: var(--color-antiquewhite);
-    width: 100%;
-    height: 1362px;
-    overflow: hidden;
-    text-align: left;
-    font-size: var(--font-size-13xl);
-    color: var(--color-black);
-    font-family: var(--font-roboto);
 }

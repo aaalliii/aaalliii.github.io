@@ -21,6 +21,7 @@ nav a {
     margin-right: 20px;
     text-decoration: none;
     color: #000;
+    font-size: 90%;
 }
 nav b {
     margin-right: 20px;
@@ -31,16 +32,18 @@ nav b {
 .logo {
     width: 100px;
     height: auto;
+    margin-right: 11.5%;
+
 }
 
 .buy-tickets-btn {
     background-color: #a62517;
     color: #fff;
-    padding: 18px 36px;
+    padding: 16px 10px;
     border: none;
     border-radius: 36px;
     cursor: pointer;
-    font-size: 120%;
+    font-size: 90%;
 }
 
 .main-content {
