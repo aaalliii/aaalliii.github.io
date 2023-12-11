@@ -71,9 +71,51 @@
     bottom: 3%;
     right: 8%;
     height: 54px;
+
     /*overflow: hidden;*/
 }
 .instagram-svgrepo-com-1-1 {
     right: 25%;
     width: 54px;
+}
+.mbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.mcontainer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.mcustom-block {
+    width: 100px;
+    height: 300px;
+    background-color: #808080;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.mcustom-block2 {
+    width: 200px;
+}
+
+.mcustom-text {
+    margin: 10px;
+    color: white;
+    font-size: 120%;
+}
+.ncustom-text {
+    margin: 10px;
+    color: white;
+
 }
